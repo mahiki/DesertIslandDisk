@@ -1,7 +1,7 @@
 module DesertIslandDisk
 
 
-export  tostring # not needed i think
+export  @tostring
 
 greet() = print("Hello World!")
 
