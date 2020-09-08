@@ -8,9 +8,11 @@
  =============================================================================#
 
 """
-    tostring(aeg::Any)
+    @tostring
 
-Return the variable, function, Symbol, object, et al name as a string. 
+Return the variable, function, Symbol, object, et al name as a string.
+
+@tostring(arg::Any)
 
 # Examples
 ```jldoctest
@@ -31,7 +33,6 @@ julia> string(hippy)
 "hippy"
 ```
 """
-
 macro tostring(aeg::Any)
     x = string(aeg)
     quote
