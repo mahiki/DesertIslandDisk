@@ -19,10 +19,8 @@ Return the variable, function, Symbol, object, et al name as a string.
 ```jldoctest
 julia> a = 55;
 julia> bingo = "I'm the new sherrif";
-
-
-
-
+```
+"""
 macro assert(ex)
            return :( $ex ? nothing : throw(AssertionError($(string(ex)))) )
        end
