@@ -1,10 +1,11 @@
 #=  ================================================================================================
     Read partitioned dataframes from local or s3 paths.
 
-    NOTE:       dataset_root currently works with AbstractPath and S3Path types
-                partition labels are detected by a simple regex
+    TODO:       dataset_root currently works with AbstractPath and S3Path types
+                partition labels are detected by a simple regex (not timestamp formats)
+                kwargs better
+                add column type defintion for partition columns
 
-    package:    DesertIslandDisk
     author:     mahiki@users.noreply.github.com
 =   ===============================================================================================#
 
