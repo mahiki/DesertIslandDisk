@@ -5,13 +5,14 @@
                 partition labels are detected by a simple regex (not timestamp formats)
                 kwargs better
                 add column type defintion for partition columns
+                prune partions from the read stage via kwarg
 
     author:     mahiki@users.noreply.github.com
 =   ===============================================================================================#
 
 
 using DataFrames, Pipe, Dates
-using FilePathsBase, AWSS3
+using FilePathsBase, AWSS3, CSV
 
 """
     read_partitioned_dataframe_csv(dataset_root, date_format::String, column_types::Dict)
