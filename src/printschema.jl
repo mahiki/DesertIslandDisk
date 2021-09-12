@@ -1,8 +1,6 @@
 #==============================================================================
     Generate DataFrame of Column Names and Type from a DataFrame
 
-    package:    DesertIslandDisk
-    tested:     
     author:     mahiki@users.noreply.github.com
 =============================================================================#
 

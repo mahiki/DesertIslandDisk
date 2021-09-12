@@ -1,9 +1,7 @@
 #==============================================================================
     exit a script file back to the REPL
-        useful for julia-notebook script files
+        useful for julia-notebook stlye script files
 
-    package:    DesertIslandDisk
-    tested:     PASS
     author:     merlinr@ copied from discourse somewhere
  =============================================================================#
 

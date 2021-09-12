@@ -3,8 +3,6 @@
 
     TODO:       kwarg to randomly select rows
 
-    package:    DesertIslandDisk
-    tested:     
     author:     mahiki@users.noreply.github.com
 =============================================================================#
 

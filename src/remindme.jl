@@ -1,12 +1,9 @@
 #==============================================================================
-    stuff to look up from the reply
+    stuff to look up from the REPL
     usage uncertain so far
 
     TODO:   this needs to parse keyword tokens and search the array elements
 
-    package:    DesertIslandDisk
-    tested:     eh
-    depend:     NO
     author:     mahiki@
  =============================================================================#
 
@@ -48,5 +45,6 @@ remindmelist = Dict(
             "focus on inplace operations"
             "write for-loops"
             "minimize type-instabilities"
+            "write code in functions"
         ]
     )

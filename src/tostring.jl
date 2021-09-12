@@ -1,9 +1,6 @@
 #==============================================================================
     Convert variable name to string
 
-    package:    DesertIslandDisk
-    tested:     PASS
-    depend:     NO
     author:     longemen3000@stackoverflow
  =============================================================================#
 
