@@ -10,7 +10,7 @@
     author:     mahiki@users.noreply.github.com
 =   ===============================================================================================#
 using DataFrames, Pipe, Dates
-using FilePathsBase, AWSS3, CSV
+using FilePathsBase, AWS, AWSS3, CSV
 
 """
     read_partitioned_dataframe_csv(dataset_root, date_format::String, column_types::Dict)
