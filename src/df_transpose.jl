@@ -28,6 +28,8 @@ julia> df_transpose(df)
 ```
 """
 function df_transpose(df::DataFrame; n=5)
+    n = min(nrow(df), n)
+
     dfn = df[1:n,:]
     colnames = names(dfn)
     dfn[!, :id] = 1:size(dfn, 1)
