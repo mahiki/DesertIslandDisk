@@ -23,6 +23,6 @@ function addcb()
     dlmregex = r"[\s,;|]"
     x = clipboard()
     m = split(x, dlmregex, keepempty = false)
-    total = sum(parse.(Float64, m))
+    total = sum(tryparse.(Float64, m))
     return total
 end
