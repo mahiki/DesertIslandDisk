@@ -15,7 +15,7 @@ Example usage is copying a column of numbers from terminal and adding them.
 # Examples
 ```jldoctest
 julia> clipboard("55 76 \n13, 22")
-julia> addcp()
+julia> addcb()
 166
 ```
 """
