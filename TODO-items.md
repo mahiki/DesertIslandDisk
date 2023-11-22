@@ -1,6 +1,7 @@
 # TODO
 
 ## read_partitioned_dataframe_csv
+TODO: dump ENV to screen prettyprinting like `ENV | grep`
 TODO: add AWS as explicit dependency
 TODO: default args date_format = nothing, column_types = nothing, call CSV.read as kwargs
 TODO: explicitly list Union type of S3Path/Abs Path, make note that AWSConfig is component of S3Path
